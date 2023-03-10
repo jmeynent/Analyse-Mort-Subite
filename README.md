@@ -6,3 +6,8 @@ Sources intéressantes pour le clustering de séries temporelles :
 - https://www.kaggle.com/code/izzettunc/introduction-to-time-series-clustering
 
 Visiblement il faut utiliser le package tslearn.clustering
+
+Pour l'indexation temporelle peut-être utiliser datetime.timedelta
+
+from datetime import timedelta
+delta = timedelta(days=50)
