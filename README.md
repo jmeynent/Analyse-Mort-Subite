@@ -11,3 +11,7 @@ Pour l'indexation temporelle peut-être utiliser datetime.timedelta
 
 from datetime import timedelta
 delta = timedelta(days=50)
+
+Utiliser les k-means (général : à adapter pour séries temp)
+
+https://realpython.com/k-means-clustering-python/#how-to-perform-k-means-clustering-in-python
